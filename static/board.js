@@ -10,6 +10,7 @@ var eraseOpen = "https://img.icons8.com/ios/344/erase.png";
 var eraseClosed = "https://img.icons8.com/ios-filled/344/erase.png";
 var oldScrollValue = 0;
 var newScrollValue = 0;
+var customCursor = "https://img.icons8.com/dotty/344/circled.png"
 
 
 
