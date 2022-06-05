@@ -1,0 +1,55 @@
+#drawCanvas {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#selectionBox {
+    display: flex;
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    margin: 0 auto;
+    border-radius: 25px 25px 0px 0px;
+    background-color: whitesmoke;
+    border-top: 2px solid #9da099;
+    border-left: 2px solid #9da099;
+    border-right: 2px solid #9da099;
+    padding: 10px;
+    text-align: center;
+}
+#brushIMG:hover {
+    color: #ffffff !important;
+    background: rgb(148, 150, 151);
+    border-color: rgb(148, 150, 151) !important;
+    transition: all 0.5s ease 0s;
+}
+#eraseIMG:hover {
+    color: #ffffff !important;
+    background: rgb(148, 150, 151);
+    border-color: rgb(148, 150, 151) !important;
+    transition: all 0.5s ease 0s;
+}
+#brushIMG {
+    border-radius: 20px;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+#eraseIMG {
+    border-radius: 20px;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+#lineWidth {
+    margin-top: 15px;
+    width: 30px;
+}
+#textDIV {
+    padding: 10px;
+}
