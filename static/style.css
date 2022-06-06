@@ -17,6 +17,7 @@
     border-right: 2px solid #9da099;
     padding: 10px;
     text-align: center;
+    z-index: 2;
 }
 #brushIMG:hover {
     color: #ffffff !important;
@@ -46,10 +47,22 @@
     user-select: none;
     -webkit-user-drag: none;
 }
-#lineWidth {
+#strokeWidth {
     margin-top: 15px;
     width: 30px;
 }
 #textDIV {
     padding: 10px;
+}
+#cursor {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    cursor: none;
+    z-index: 1;
+    user-select: none;
+    -webkit-user-drag: none;
 }
